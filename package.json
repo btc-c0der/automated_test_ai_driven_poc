@@ -1,0 +1,21 @@
+{
+  "name": "automationexercise-playwright",
+  "version": "1.0.0",
+  "description": "Playwright API & UI test suite for automationexercise.com",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "test:headed": "playwright test --project=ui --headed",
+    "report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^26.1.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}
